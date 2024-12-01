@@ -7,3 +7,4 @@
         * html and css
     - adding footer component 
         * ng g c footer --skip-tests
+        * html and css
