@@ -1,0 +1,59 @@
+ <!-- Create Game Page Container -->
+ <div class="create-game-container">
+    <h1 class="title">Add a New Game</h1>
+
+    <form class="game-form">
+      <div class="form-group">
+        <label for="gameName">Game Name:</label>
+        <input type="text" id="gameName" name="gameName" placeholder="Enter game name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="yearOfCreation">Year of Creation:</label>
+        <input type="number" id="yearOfCreation" name="yearOfCreation" placeholder="Enter year" min="1950" max="2024" required />
+      </div>
+
+      <div class="form-group">
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" placeholder="Enter company name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="imageUrl">Image URL:</label>
+        <input type="url" id="imageUrl" name="imageUrl" placeholder="Enter image URL" required />
+      </div>
+
+      <div class="form-group">
+        <label for="genre">Genre:</label>
+        <select id="genre" name="genre" required>
+          <option value="" disabled selected>Select genre</option>
+          <option value="Action">Action</option>
+          <option value="Adventure">Adventure</option>
+          <option value="RPG">RPG</option>
+          <option value="Shooter">Shooter</option>
+          <option value="Strategy">Strategy</option>
+          <option value="Simulation">Simulation</option>
+          <option value="Sports">Sports</option>
+          <option value="Puzzle">Puzzle</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="type">Type of Game:</label>
+        <select id="type" name="type" required>
+          <option value="" disabled selected>Select type</option>
+          <option value="Single Player">Single Player</option>
+          <option value="Multiplayer">Multiplayer</option>
+          <option value="Online">Online</option>
+          <option value="Offline">Offline</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="description">Game Description:</label>
+        <textarea id="description" name="description" placeholder="Enter game description" required></textarea>
+      </div> 
+
+     
+    </form>
+  </div>
