@@ -6,9 +6,13 @@ html, body {
   }
   
   
-  body {
-    display: flex;
-    flex-direction: column;   
-    justify-content: space-between; 
-  }
+ 
   
+  body {
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(135deg, #1e1e2f, #3c3b5c); /* Dark gaming gradient */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }

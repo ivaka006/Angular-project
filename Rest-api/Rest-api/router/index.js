@@ -1,10 +1,10 @@
 const router = require('express').Router();
-const users = require('./users');
-const themes = require('./themes');
-const posts = require('./posts');
-const likes = require('./likes');
-const test = require('./test');
-const { authController } = require('../controllers');
+import users from './users';
+import themes from './themes';
+import posts from './posts';
+import likes from './likes';
+import test from './test';
+import { authController } from '../controllers';
 
 router.post('/register', authController.register);
 router.post('/login', authController.login);
@@ -16,4 +16,4 @@ router.use('/posts', posts);
 router.use('/likes', likes);
 router.use('/test', test);
 
-module.exports = router;
+export default router;

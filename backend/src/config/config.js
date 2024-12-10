@@ -3,7 +3,7 @@ const env = process.env.NODE_ENV || 'development';
 const config = {
     development: {
         port: process.env.PORT || 3000,
-        dbURL: 'mongodb://localhost:27017/gameRoom',
+        dbURL: 'mongodb://localhost:27017/GameRoom',
         origin: ['http://localhost:5555', 'http://localhost:4200']
     },
     production: {
@@ -13,4 +13,5 @@ const config = {
     }
 };
 
-module.exports = config[env];
+export default config[env];
+
