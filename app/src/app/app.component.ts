@@ -8,7 +8,7 @@ import { RegisterComponent } from './user/register/register.component';
 import { ErrorComponent } from './error/error.component';
 import { AboutComponent } from './static/about/about.component';
 import { ContactsComponent } from './static/contacts/contacts.component';
-import { CreateComponent } from './game/create/create.component';
+import { CreateComponent } from './create/create.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { DetailsComponent } from './details/details.component';
 
