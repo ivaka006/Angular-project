@@ -8,12 +8,14 @@ import { RegisterComponent } from './user/register/register.component';
 import { ErrorComponent } from './error/error.component';
 import { AboutComponent } from './static/about/about.component';
 import { ContactsComponent } from './static/contacts/contacts.component';
-import { CreateComponent } from './create/create.component';
+import { CreateComponent } from './game/create/create.component';
+import { CatalogComponent } from './game/create/catalog/catalog.component';
+import { DetailsComponent } from './game/create/details/details.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, HomeComponent, LoginComponent, RegisterComponent, ErrorComponent, AboutComponent, ContactsComponent, CreateComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent, HomeComponent, LoginComponent, RegisterComponent, ErrorComponent, AboutComponent, ContactsComponent, CreateComponent, CatalogComponent, DetailsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

@@ -1,0 +1,104 @@
+/* Detail Container */
+.detail-container {
+    max-width: 800px;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7);
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  /* Game Image */
+  .game-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .game-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Game Details */
+  .game-details {
+    text-align: left;
+    color: #f0f0f0;
+    margin-top: 20px;
+  }
+  
+  .game-title {
+    font-size: 22px;
+    color: #e63946; /* Neon red */
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  strong {
+    color: #e63946;
+  }
+  
+  /* Buttons */
+  .action-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn:hover {
+    background: #5dade2;
+    transform: scale(1.05);
+  }
+  
+  .btn-back {
+    background: #2ecc71;
+  }
+  
+  .btn-back:hover {
+    background: #27ae60;
+  }
+  
+  .btn-edit {
+    background: #f39c12;
+  }
+  
+  .btn-edit:hover {
+    background: #e67e22;
+  }
+  
+  .btn-delete {
+    background: #e63946;
+  }
+  
+  .btn-delete:hover {
+    background: #ff4757;
+  }
+  
+  .btn-like {
+    background: #9b59b6;
+  }
+  
+  .btn-like:hover {
+    background: #8e44ad;
+  }
+  
