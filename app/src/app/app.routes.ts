@@ -6,8 +6,8 @@ import { RegisterComponent } from './user/register/register.component';
 import { AboutComponent } from './static/about/about.component';
 import { ContactsComponent } from './static/contacts/contacts.component';
 import { CreateComponent } from './game/create/create.component';
-import { CatalogComponent } from './game/create/catalog/catalog.component';
-import { DetailsComponent } from './game/create/details/details.component';
+import { CatalogComponent } from './catalog/catalog.component';
+import { DetailsComponent } from './details/details.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
