@@ -1,0 +1,94 @@
+ /* Contact Page Container */
+ .contact-container {
+    max-width: 900px;
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 132px;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 28px;
+    color: #e63946; /* Neon red */
+    margin-bottom: 30px;
+  }
+  
+  /* Contact Content Sections */
+  .contact-content {
+    margin-bottom: 30px;
+  }
+  
+  /* Section Titles */
+  h2, h3 {
+    font-size: 22px;
+    color: #ff4757; /* Neon red */
+    margin-bottom: 20px;
+  }
+  
+  /* Introduction Paragraph */
+  .contact-introduction p {
+    font-size: 16px;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Info */
+  .contact-info p {
+    font-size: 16px;
+    color: #f0f0f0;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a {
+    color: #e63946; /* Neon red */
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Media Section */
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background: #444;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .social-btn:hover {
+    background: #e63946; /* Neon red on hover */
+  }
+  
+  /* Button */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background: #e63946;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    
+  }
+  
+  .btn:hover {
+    background: #ff4757; /* Brighter red */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }

@@ -1,0 +1,78 @@
+ /* About Page Container */
+ .about-container {
+    max-width: 900px;
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 112px;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 28px;
+    color: #e63946; /* Neon red */
+    margin-bottom: 30px;
+  }
+  
+  /* About Content Sections */
+  .about-content {
+    margin-bottom: 30px;
+  }
+  
+  /* Section Titles */
+  h2 {
+    font-size: 22px;
+    color: #ff4757; /* Neon red */
+    margin-bottom: 20px;
+  }
+  
+  /* Introduction Paragraph */
+  .about-introduction p {
+    font-size: 16px;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+  
+  /* Features List */
+  .about-features ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .about-features li {
+    margin-bottom: 10px;
+  }
+  
+  .about-features strong {
+    color: #e63946; /* Neon red */
+  }
+  
+  /* Team Section */
+  .about-team p {
+    font-size: 16px;
+    color: #f0f0f0;
+    margin-bottom: 30px;
+  }
+  
+  /* Button */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background: #e63946;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn:hover {
+    background: #ff4757; /* Brighter red */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
